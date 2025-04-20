@@ -1,0 +1,49 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 16 Oct 2022 16:31:09 at https://design-graphma.com/demo/primo/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://design-graphma.com/demo/primo/ -O1 "C:\My Web Sites\CV6" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-0.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-1.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-10.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-11.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-12.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-13.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-14.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-15.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-16.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-17.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-18.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-19.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-2.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-20.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-21.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-22.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-23.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-24.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-25.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-26.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-27.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-28.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-29.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-3.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-30.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-31.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-32.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-33.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-34.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-35.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-36.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-37.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-4.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-5.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-6.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-7.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-8.woff2
+16:32:06	Warning: 	File not parsed, looks like binary: https://design-graphma.com/demo/primo/assets/fonts/unicons-9.woff2
+
+HTTrack Website Copier/3.49-2 mirror complete in 58 seconds : 235 links scanned, 234 files written (16948650 bytes overall) [16493384 bytes received at 284368 bytes/sec], 663504 bytes transferred using HTTP compression in 23 files, ratio 22%, 39.1 requests per connection
+(No errors, 38 warnings, 0 messages)

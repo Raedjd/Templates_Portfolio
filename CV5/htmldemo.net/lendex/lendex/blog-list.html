@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+
+<!-- Mirrored from htmldemo.net/lendex/lendex/blog-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 16 Oct 2022 15:19:13 GMT -->
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lendex - Personal Portfolio Bootstrap Template</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
+
+    <!-- CSS
+    ============================================ -->
+
+    <!-- Vendor CSS (Contain Bootstrap, Icon Fonts) -->
+    <!-- <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/icofont.min.css" /> -->
+
+    <!-- Plugin CSS (Global Plugins Files) -->
+    <!-- <link rel="stylesheet" href="assets/css/plugins/animate.css">
+    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/venobox.min.css" /> -->
+
+    <!-- Style CSS -->
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    
+    <!-- Minify Version -->
+    <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+
+</head>
+
+<body>
+
+    <main class="main-wrapper">
+        <!-- .....:::::: Start Header Section :::::.... -->
+        <header class="header-section sticky-header d-none d-lg-block">
+            <div class="header-wrapper">
+                <div class="container">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col">
+                            <!-- Start Header Logo -->
+                            <a href="index.html" class="header-logo">
+                                <img src="assets/images/logo/logo.png" alt="">
+                            </a>
+                            <!-- End Header Logo -->
+                        </div>
+                        <div class="col-auto">
+                            <!-- Start Header Menu -->
+                            <ul class="header-nav">
+                                <li><a href="index.html">Home</a></li>
+                                <li class="has-dropdown">
+                                    <a href="service-list.html">Service</a>
+                                    <ul class="submenu">
+                                        <li><a href="service-list.html">Services</a></li>
+                                        <li><a href="service-details.html">Service Details</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-dropdown">
+                                    <a href="blog-list.html">Blog</a>
+                                    <ul class="submenu">
+                                        <li><a href="blog-list.html">Blog List Full Width</a></li>
+                                        <li><a href="blog-list-sidebar-left.html">Blog List Left Sidebar</a></li>
+                                        <li><a href="blog-list-sidebar-right.html">Blog List Right Sidebar</a></li>
+                                        <li><a href="blog-details.html">Blog Details Full Width</a></li>
+                                        <li><a href="blog-details-sidebar-left.html">Blog Details Left Sidebar</a></li>
+                                        <li><a href="blog-details-sidebar-right.html">Blog Details Right Sidebar</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-dropdown">
+                                    <a href="#">Pages</a>
+                                    <ul class="submenu">
+                                        <li><a href="about.html">About Us</a></li>
+                                    <li><a href="project-list.html">Project</a></li>
+                                    <li><a href="project-details.html">Project Details</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="404-page.html">404 Page</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                            <!-- End Header Menu -->
+                        </div>
+                        <div class="col">
+                            <div class="header-btn-link text-end">
+                               <a href="contact.html" class="btn btn-sm btn-outline-one icon-space-left">Hire Me <i class="icofont-double-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- .....:::::: End Header Section :::::.... -->
+
+        <!-- .....:::::: Start Mobile Header Section :::::.... -->
+        <div class="mobile-header d-block d-lg-none">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col">
+                        <div class="mobile-logo">
+                            <a href="index.html"><img src="assets/images/logo/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mobile-action-link text-end">
+                            <a href="#mobile-menu-offcanvas" class="offcanvas-toggle offside-menu"><i class="icofont-navigation-menu"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- .....:::::: Start MobileHeader Section :::::.... -->
+
+        <!--  Start Offcanvas Mobile Menu Section -->
+        <div id="mobile-menu-offcanvas" class="offcanvas offcanvas-rightside offcanvas-mobile-menu-section">
+            <!-- Start Offcanvas Header -->
+            <div class="offcanvas-header text-right">
+                <button class="offcanvas-close"><i class="icofont-close-line"></i></button>
+            </div> <!-- End Offcanvas Header -->
+            <!-- Start Offcanvas Mobile Menu Wrapper -->
+            <div class="offcanvas-mobile-menu-wrapper">
+                <!-- Start Mobile Menu  -->
+                <div class="mobile-menu-bottom">
+                    <!-- Start Mobile Menu Nav -->
+                    <div class="offcanvas-menu">
+                        <ul>
+                            <li>
+                                <a href="index.html"><span>Home</span></a>
+                            </li>
+                            <li>
+                                <a href="#"><span>Services</span></a>
+                                <ul class="mobile-sub-menu">
+                                    <li><a href="service-list.html">Service List</a></li>
+                                    <li><a href="service-details.html">Service Details</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span>Blog</span></a>
+                                <ul class="mobile-sub-menu">
+                                    <li><a href="blog-list.html">Blog List Full Width</a></li>
+                                    <li><a href="blog-list-sidebar-left.html">Blog List Left Sidebar</a></li>
+                                    <li><a href="blog-list-sidebar-right.html">Blog List Right Sidebar</a></li>
+                                    <li><a href="blog-details.html">Blog Details Full Width</a></li>
+                                    <li><a href="blog-details-sidebar-left.html">Blog Details Left Sidebar</a></li>
+                                    <li><a href="blog-details-sidebar-right.html">Blog Details Right Sidebar</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span>Pages</span></a>
+                                <ul class="mobile-sub-menu">
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="project-list.html">Project</a></li>
+                                    <li><a href="project-details.html">Project Details</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="404-page.html">404 Page</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="contact.html"><span>Contact</span></a>
+                            </li>
+                        </ul>
+                    </div> <!-- End Mobile Menu Nav -->
+                </div> <!-- End Mobile Menu -->
+
+                <!-- Start Mobile contact Info -->
+                <div class="mobile-contact-info text-center">
+                    <ul class="social-link">
+                        <li><a target="_blank" href="https://example.com/"><i class="icofont-facebook"></i></a>
+                        </li>
+                        <li><a target="_blank" href="https://example.com/"><i class="icofont-twitter"></i></a>
+                        </li>
+                        <li><a target="_blank" href="https://example.com/"><i class="icofont-skype"></i></a></li>
+                    </ul>
+                </div>
+                <!-- End Mobile contact Info -->
+
+            </div> <!-- End Offcanvas Mobile Menu Wrapper -->
+        </div>
+        <!-- ...:::: End Offcanvas Mobile Menu Section:::... -->
+
+        <!-- Offcanvas Overlay -->
+        <div class="offcanvas-overlay"></div>
+
+        <!-- ...::: Start Breadcrumb Section :::... -->
+        <div class="breadcrumb-section section-bg overflow-hidden pos-relative">
+            <div class="breadcrumb-shape-top-left"></div>
+            <div class="breadcrumb-shape-bottom-right"></div>
+            <div class="breadcrumb-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="breadcrumb-content">
+                                <h2 class="title">Blog List</h2>
+                                <ul class="breadcrumb-link">
+                                    <li><a href="blog-list.html">Blog</a></li>
+                                    <li class="active" aria-current="page">Blog List</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ...::: End Breadcrumb Section :::... -->
+
+        <!-- ...::: Start Blog List Section :::... -->
+        <div class="blog-list-section section-mt-165">
+            <div class="blog-list-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <!--  Start Blog List  -->
+                            <div class="blog-list">
+                                <!-- Start Blog List  Single Item-->
+                                <div class="blog-list-single-item">
+                                    <div class="inner-shape inner-shape-top-right"></div>
+                                    <a href="blog-details-sidebar-left.html" class="image">
+                                        <img src="assets/images/blog/blog-feed-img-1.jpg" alt="">
+                                    </a>
+                                    <div class="content">
+                                        <div class="post-meta-1">
+                                            <a href="#" class="catagory">Business</a>
+                                            <a href="#" class="date">07 February, 2021</a>
+                                        </div>
+                                        <h4 class="title"><a href="#">Don't wait until you officially started business.</a></h4>
+
+                                        <div class="post-meta-2">
+                                            <a href="#" class="icon-space-right"><i class="icofont-ui-user"></i>Rolland Abell</a>
+                                            <a href="#" class="icon-space-right"><i class="icofont-heart"></i>5,678</a>
+                                            <a href="#" class="icon-space-right"><i class="icofont-speech-comments"></i>2,567</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Blog List  Single Item-->
+                                <!-- Start Blog List  Single Item-->
+                                <div class="blog-list-single-item">
+                                    <div class="inner-shape inner-shape-top-right"></div>
+                                    <a href="blog-details-sidebar-left.html" class="image">
+                                        <img src="assets/images/blog/blog-feed-img-2.jpg" alt="">
+                                    </a>
+                                    <div class="content">
+                                        <div class="post-meta-1">
+                                            <a href="#" class="catagory">Business</a>
+                                            <a href="#" class="date">07 February, 2021</a>
+                                        </div>
+                                        <h4 class="title"><a href="#">Don't wait until you officially started business.</a></h4>
+
+                                        <div class="post-meta-2">
+                                            <a href="#" class="icon-space-right"><i class="icofont-ui-user"></i>Rolland Abell</a>
+                                            <a href="#" class="icon-space-right"><i class="icofont-heart"></i>5,678</a>
+                                            <a href="#" class="icon-space-right"><i class="icofont-speech-comments"></i>2,567</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Blog List  Single Item-->
+                                <!-- Start Blog List  Single Item-->
+                                <div class="blog-list-single-item">
+                                    <div class="inner-shape inner-shape-top-right"></div>
+                                    <a href="blog-details-sidebar-left.html" class="image">
+                                        <img src="assets/images/blog/blog-feed-img-3.jpg" alt="">
+                                    </a>
+                                    <div class="content">
+                                        <div class="post-meta-1">
+                                            <a href="#" class="catagory">Business</a>
+                                            <a href="#" class="date">07 February, 2021</a>
+                                        </div>
+                                        <h4 class="title"><a href="#">Don't wait until you officially started business.</a></h4>
+
+                                        <div class="post-meta-2">
+                                            <a href="#" class="icon-space-right"><i class="icofont-ui-user"></i>Rolland Abell</a>
+                                            <a href="#" class="icon-space-right"><i class="icofont-heart"></i>5,678</a>
+                                            <a href="#" class="icon-space-right"><i class="icofont-speech-comments"></i>2,567</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Blog List  Single Item-->
+                                <!-- Start Blog List  Single Item-->
+                                <div class="blog-list-single-item">
+                                    <div class="inner-shape inner-shape-top-right"></div>
+                                    <a href="blog-details-sidebar-left.html" class="image">
+                                        <img src="assets/images/blog/blog-feed-img-4.jpg" alt="">
+                                    </a>
+                                    <div class="content">
+                                        <div class="post-meta-1">
+                                            <a href="#" class="catagory">Business</a>
+                                            <a href="#" class="date">07 February, 2021</a>
+                                        </div>
+                                        <h4 class="title"><a href="#">Don't wait until you officially started business.</a></h4>
+
+                                        <div class="post-meta-2">
+                                            <a href="#" class="icon-space-right"><i class="icofont-ui-user"></i>Rolland Abell</a>
+                                            <a href="#" class="icon-space-right"><i class="icofont-heart"></i>5,678</a>
+                                            <a href="#" class="icon-space-right"><i class="icofont-speech-comments"></i>2,567</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Blog List  Single Item-->
+                                <!-- Start Blog List  Single Item-->
+                                <div class="blog-list-single-item">
+                                    <div class="inner-shape inner-shape-top-right"></div>
+                                    <a href="blog-details-sidebar-left.html" class="image">
+                                        <img src="assets/images/blog/blog-feed-img-5.jpg" alt="">
+                                    </a>
+                                    <div class="content">
+                                        <div class="post-meta-1">
+                                            <a href="#" class="catagory">Business</a>
+                                            <a href="#" class="date">07 February, 2021</a>
+                                        </div>
+                                        <h4 class="title"><a href="#">Don't wait until you officially started business.</a></h4>
+
+                                        <div class="post-meta-2">
+                                            <a href="#" class="icon-space-right"><i class="icofont-ui-user"></i>Rolland Abell</a>
+                                            <a href="#" class="icon-space-right"><i class="icofont-heart"></i>5,678</a>
+                                            <a href="#" class="icon-space-right"><i class="icofont-speech-comments"></i>2,567</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Blog List  Single Item-->
+                                <!-- Start Blog List  Single Item-->
+                                <div class="blog-list-single-item">
+                                    <div class="inner-shape inner-shape-top-right"></div>
+                                    <a href="blog-details-sidebar-left.html" class="image">
+                                        <img src="assets/images/blog/blog-feed-img-6.jpg" alt="">
+                                    </a>
+                                    <div class="content">
+                                        <div class="post-meta-1">
+                                            <a href="#" class="catagory">Business</a>
+                                            <a href="#" class="date">07 February, 2021</a>
+                                        </div>
+                                        <h4 class="title"><a href="#">Don't wait until you officially started business.</a></h4>
+
+                                        <div class="post-meta-2">
+                                            <a href="#" class="icon-space-right"><i class="icofont-ui-user"></i>Rolland Abell</a>
+                                            <a href="#" class="icon-space-right"><i class="icofont-heart"></i>5,678</a>
+                                            <a href="#" class="icon-space-right"><i class="icofont-speech-comments"></i>2,567</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Blog List  Single Item-->
+                                <!-- Start Blog List  Single Item-->
+                                <div class="blog-list-single-item">
+                                    <div class="inner-shape inner-shape-top-right"></div>
+                                    <a href="blog-details-sidebar-left.html" class="image">
+                                        <img src="assets/images/blog/blog-feed-img-7.jpg" alt="">
+                                    </a>
+                                    <div class="content">
+                                        <div class="post-meta-1">
+                                            <a href="#" class="catagory">Business</a>
+                                            <a href="#" class="date">07 February, 2021</a>
+                                        </div>
+                                        <h4 class="title"><a href="#">Don't wait until you officially started business.</a></h4>
+
+                                        <div class="post-meta-2">
+                                            <a href="#" class="icon-space-right"><i class="icofont-ui-user"></i>Rolland Abell</a>
+                                            <a href="#" class="icon-space-right"><i class="icofont-heart"></i>5,678</a>
+                                            <a href="#" class="icon-space-right"><i class="icofont-speech-comments"></i>2,567</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Blog List  Single Item-->
+                            </div>
+                            <!--  End Blog List   -->
+
+                            <div class="d-flex justify-content-center justify-content-lg-start">
+                                <!--  Start Pagination  -->
+                                <div class="pagination">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <ul class="pagination-nav-list">
+                                                <li class="prev"><a href="#"><i class="icofont-double-left"></i></a></li>
+                                                <li><a href="#">1</a></li>
+                                                <li class="active"><a href="#">2</a></li>
+                                                <li><a href="#">3</a></li>
+                                                <li class="next"><a href="#"><i class="icofont-double-right"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  Start Pagination  -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ...::: End Blog List Section :::... -->
+
+        <!-- ...::: Start Company Logo Display Section :::... -->
+        <div class="company-logo-display section-gap-tb-165">
+            <div class="company-logo-display-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <!-- Start Section Content -->
+                            <div class="section-content pos-relative">
+                                <span class="section-tag">Favourite Clients</span>
+                                <h2 class="section-title">Work With Trusted Comapny.</h2>
+                            </div>
+                            <!-- End Section Content -->
+                        </div>
+                    </div>
+
+                    <div class="company-logo-display-wrapper">
+                        <div class="row">
+                            <div class="col">
+                                <div class="company-logo-display-slider">
+                                    <!-- Slider main container -->
+                                    <div class="swiper-container">
+                                        <!-- Additional required wrapper -->
+                                        <div class="swiper-wrapper">
+                                            <!-- Start Company Logo Slider Single Item -->
+                                            <div class="company-logo-single-item swiper-slide">
+                                                <a href="#" class="image">
+                                                    <img src="assets/images/company-logo/company-logo-1.png" alt="">
+                                                    <img src="assets/images/company-logo/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- End Company Logo Slider Single Item -->
+                                            <!-- Start Company Logo Slider Single Item -->
+                                            <div class="company-logo-single-item swiper-slide">
+                                                <a href="#" class="image">
+                                                    <img src="assets/images/company-logo/company-logo-2.png" alt="">
+                                                    <img src="assets/images/company-logo/2.png" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- End Company Logo Slider Single Item -->
+                                            <!-- Start Company Logo Slider Single Item -->
+                                            <div class="company-logo-single-item swiper-slide">
+                                                <a href="#" class="image">
+                                                    <img src="assets/images/company-logo/company-logo-3.png" alt="">
+                                                    <img src="assets/images/company-logo/3.png" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- End Company Logo Slider Single Item -->
+                                            <!-- Start Company Logo Slider Single Item -->
+                                            <div class="company-logo-single-item swiper-slide">
+                                                <a href="#" class="image">
+                                                    <img src="assets/images/company-logo/company-logo-4.png" alt="">
+                                                    <img src="assets/images/company-logo/4.png" alt="">
+                                                </a>
+                                            </div>
+                                            <!-- End Company Logo Slider Single Item -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ...::: End Company Logo Display Section :::... -->
+
+        <!-- ...::: Start Footer Section :::... -->
+        <footer class="footer-section section-bg overflow-hidden pos-relative">
+            <div class="footer-inner-shape-top-left"></div>
+            <div class="footer-inner-shape-top-right"></div>
+            <div class="footer-section-top section-gap-t-165">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- Start Section Content -->
+                            <div class="section-content pos-relative text-center">
+                                <span class="section-tag">Get Latest Updates</span>
+                                <h2 class="section-title">Subscribe For Newsletter</h2>
+                            </div>
+                            <!-- End Section Content -->
+                        </div>
+                    </div>
+                    <div class="footer-top-wrapper text-center">
+                        <div class="row">
+                            <div class="col-12">
+                                <form action="#" class="footer-newsletter">
+                                    <input type="email" placeholder="demo@example.com">
+                                    <button class="submit-btn" type="submit">Subscribe Now</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-center section-gap-tb-165">
+                <div class="container">
+                    <div class="row justify-content-between align-items-center mb-n5">
+                        <div class="col-auto mb-5">
+                            <!-- Start Single Footer Info -->
+                            <div class="footer-single-info">
+                                <a href="tel:+0123456789" class="info-box">
+                                    <span class="icon"><i class="icofont-phone"></i></span>
+                                    <span class="text">0123456789</span>
+                                </a>
+                            </div>
+                            <!-- Start Single Footer Info -->
+                        </div>
+                        <div class="col-auto mb-5">
+                            <!-- Start Single Footer Info -->
+                            <div class="footer-single-info">
+                                <a href="mailto:demo@example.com" class="info-box">
+                                    <span class="icon"><i class="icofont-envelope-open"></i></span>
+                                    <span class="text">demo@example.com</span>
+                                </a>
+                            </div>
+                            <!-- Start Single Footer Info -->
+                        </div>
+                        <div class="col-auto mb-5">
+                            <!-- Start Single Footer Info -->
+                            <div class="footer-single-info">
+                                <ul class="social-link">
+                                    <li><a href="https://www.example.com/" target="_blank"><i class="icofont-facebook"></i></a></li>
+                                    <li><a href="https://www.example.com/" target="_blank"><i class="icofont-dribbble"></i></a></li>
+                                    <li><a href="https://www.example.com/" target="_blank"><i class="icofont-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- Start Single Footer Info -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row justify-content-center justify-content-md-between align-items-center flex-column-reverse flex-md-row">
+                        <div class="col-auto">
+                            <div class="footer-copyright">
+                                <p class="copyright-text">&copy; 2021 <a href="index.html">Lendex</a> Made with <i class="icofont-heart"></i> by <a href="https://hasthemes.com/" target="_blank">HasThemes</a> </p>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <a href="index.html" class="footer-logo">
+                                <div class="logo">
+                                    <img src="assets/images/logo/logo.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!-- ...::: End Footer Section :::... -->
+
+        <!-- material-scrolltop button -->
+        <button class="material-scrolltop" type="button"></button>
+    </main>
+
+    <!-- Global Vendor, plugins JS -->
+
+    <!-- JS Files
+    ============================================ -->
+    <!-- Global Vendor, plugins JS -->
+
+    <!-- Vendor JS -->
+    <!-- <script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script> -->
+    
+    <!--Plugins JS-->
+    <!-- <script src="assets/js/plugins/swiper-bundle.min.js"></script>
+    <script src="assets/js/plugins/jquery.appear.min.js"></script>
+    <script src="assets/js/plugins/venobox.min.js"></script>
+    <script src="assets/js/plugins/jquery.waypoints.js"></script>
+    <script src="assets/js/plugins/images-loaded.min.js"></script>
+    <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
+    <script src="assets/js/plugins/counter.js"></script>
+    <script src="assets/js/plugins/ajax-mail.js"></script>
+    <script src="assets/js/plugins/material-scrolltop.js"></script> -->
+
+    <!-- Minify Version -->
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/plugins.min.js"></script>
+
+    <!--Main JS (Common Activation Codes)-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+
+<!-- Mirrored from htmldemo.net/lendex/lendex/blog-list.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 16 Oct 2022 15:19:15 GMT -->
+</html>

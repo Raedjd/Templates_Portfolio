@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 16 Oct 2022 21:36:14 at http://likeabawz.dk/exill/demo/codex/template/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://likeabawz.dk/exill/demo/codex/template/index.html -O1 "C:\My Web Sites\CV15" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:37:30	Error: 	"Not Found" (404) at link likeabawz.dk/exill/demo/codex/template/css/owl.video.play.png (from likeabawz.dk/exill/demo/codex/template/css/owl.carousel.min.css)
+21:37:30	Error: 	"Not Found" (404) at link likeabawz.dk/exill/demo/codex/template/css/font/ytp-regular.eot (from likeabawz.dk/exill/demo/codex/template/css/jquery.mb.YTPlayer.min.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 16 seconds : 70 links scanned, 67 files written (2436077 bytes overall) [1650075 bytes received at 21711 bytes/sec], 1091427 bytes transferred using HTTP compression in 45 files, ratio 25%
+(2 errors, 0 warnings, 0 messages)

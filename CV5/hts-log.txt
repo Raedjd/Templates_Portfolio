@@ -1,0 +1,11 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 16 Oct 2022 16:18:44 at https://htmldemo.net/lendex/lendex/index.html# +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://htmldemo.net/lendex/lendex/index.html# -O1 "C:\My Web Sites\CV5" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+
+HTTrack Website Copier/3.49-2 mirror complete in 42 seconds : 71 links scanned, 70 files written (4517456 bytes overall) [3477471 bytes received at 82796 bytes/sec], 1381118 bytes transferred using HTTP compression in 23 files, ratio 20%, 23.6 requests per connection
+(No errors, 0 warnings, 0 messages)

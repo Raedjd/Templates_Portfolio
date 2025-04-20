@@ -1,0 +1,15 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 16 Oct 2022 21:23:29 at https://themezinho.net/tourog/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://themezinho.net/tourog/index.html -O1 "C:\My Web Sites\CV13" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:23:59	Error: 	"Not Found" (404) at link https://themezinho.net/tourog/preview.png (from https://themezinho.net/tourog/index.html)
+21:24:53	Error: 	"Not Found" (404) at link https://themezinho.net/tourog/popper.js (from https://themezinho.net/tourog/js/bootstrap.min.js)
+21:24:53	Error: 	"Not Found" (404) at link https://themezinho.net/tourog/Version/ (from https://themezinho.net/tourog/js/swiper.min.js)
+21:24:53	Error: 	"Not Found" (404) at link https://themezinho.net/tourog/version/ (from https://themezinho.net/tourog/js/swiper.min.js)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 23 seconds : 100 links scanned, 95 files written (55898630 bytes overall) [51360011 bytes received at 359160 bytes/sec], 6808493 bytes transferred using HTTP compression in 35 files, ratio 29%, 6.8 requests per connection
+(4 errors, 0 warnings, 0 messages)

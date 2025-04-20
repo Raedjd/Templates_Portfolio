@@ -1,0 +1,17 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 16 Oct 2022 16:14:35 at https://pxdraft.com/themeforest/suzie/# +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://pxdraft.com/themeforest/suzie/# -O1 "C:\My Web Sites\CV3" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:14:36	Warning: 	Moved Permanently for https://pxdraft.com/robots.txt
+16:14:36	Warning: 	Redirected link is identical because of 'URL Hack' option: https://pxdraft.com/robots.txt and https://www.pxdraft.com/robots.txt
+16:14:36	Warning: 	Warning moved treated for https://pxdraft.com/robots.txt (real one is https://www.pxdraft.com/robots.txt)
+16:15:10	Error: 	"Not Found" (404) at link https://www.pxdraft.com/themeforest/suzie/static/plugin/owl-carousel/css/owl.video.play.png (from https://pxdraft.com/themeforest/suzie/static/plugin/owl-carousel/css/owl.carousel.min.css)
+16:15:11	Error: 	"Not Found" (404) at link https://www.pxdraft.com/themeforest/suzie/popper.js (from https://pxdraft.com/themeforest/suzie/static/plugin/bootstrap/js/bootstrap.js)
+16:15:11	Error: 	"Forbidden" (403) at link https://pxdraft.com/themeforest/suzie/static/plugin/ (from https://pxdraft.com/themeforest/suzie/static/js/custom.js)
+
+HTTrack Website Copier/3.49-2 mirror complete in 37 seconds : 67 links scanned, 63 files written (11633374 bytes overall) [11616026 bytes received at 313946 bytes/sec], 309385 bytes transferred using HTTP compression in 6 files, ratio 27%, 9.8 requests per connection
+(3 errors, 3 warnings, 0 messages)

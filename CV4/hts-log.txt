@@ -1,0 +1,19 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 16 Oct 2022 16:17:17 at https://pxdraft.com/themeforest/keira/keira/index.html#portfolio +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://pxdraft.com/themeforest/keira/keira/index.html#portfolio -O1 "C:\My Web Sites\CV4" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:17:28	Warning: 	Moved Permanently for https://pxdraft.com/robots.txt
+16:17:28	Warning: 	Redirected link is identical because of 'URL Hack' option: https://pxdraft.com/robots.txt and https://www.pxdraft.com/robots.txt
+16:17:28	Warning: 	Warning moved treated for https://pxdraft.com/robots.txt (real one is https://www.pxdraft.com/robots.txt)
+16:17:49	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link primary/robots.txt (from primary/primary)
+16:17:49	Warning: 	Retry after error -5 (Unable to get server's address: Hôte inconnu. ) at link primary/portfolio (from primary/primary)
+16:18:08	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link primary/portfolio (from primary/primary)
+16:18:16	Error: 	"Not Found" (404) at link https://www.pxdraft.com/themeforest/keira/keira/static/plugin/owl-carousel/css/owl.video.play.png (from https://pxdraft.com/themeforest/keira/keira/static/plugin/owl-carousel/css/owl.carousel.min.css)
+16:18:16	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link primary/portfolio (from primary/primary)
+
+HTTrack Website Copier/3.49-2 mirror complete in 59 seconds : 66 links scanned, 60 files written (4372345 bytes overall) [4400391 bytes received at 74582 bytes/sec], 124780 bytes transferred using HTTP compression in 2 files, ratio 29%, 6.3 requests per connection
+(3 errors, 5 warnings, 0 messages)

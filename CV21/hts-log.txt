@@ -1,0 +1,14 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 16 Oct 2022 21:58:00 at https://duruthemes.com/demo/html/annie/dark/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://duruthemes.com/demo/html/annie/dark/index.html -O1 "C:\My Web Sites\CV21" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:58:31	Error: 	"Not Found" (404) at link https://duruthemes.com/demo/html/annie/dark/webfonts/fa-solid-900.eot (from https://duruthemes.com/demo/html/annie/dark/css/font-awesome.min.css)
+21:58:31	Error: 	"Not Found" (404) at link https://duruthemes.com/demo/html/annie/dark/webfonts/fa-solid-900-.eot (from https://duruthemes.com/demo/html/annie/dark/css/font-awesome.min.css)
+21:58:31	Error: 	"Not Found" (404) at link https://duruthemes.com/demo/html/annie/dark/webfonts/fa-solid-900.svg (from https://duruthemes.com/demo/html/annie/dark/css/font-awesome.min.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 56 seconds : 103 links scanned, 99 files written (24750097 bytes overall) [23645601 bytes received at 422242 bytes/sec], 1573002 bytes transferred using HTTP compression in 28 files, ratio 27%, 11.4 requests per connection
+(3 errors, 0 warnings, 0 messages)
